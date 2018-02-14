@@ -22,11 +22,9 @@ public:
 
 	friend std::ostream& operator<<(std::ostream& stream, const Url& url);
 
-protected:
+private:
 	std::unique_ptr<SchemeExtractor> _schemeExtractor;
 	std::unique_ptr<LocationExtractor> _locationExtractor;
-
-private:
 	std::unique_ptr<FragmentExtractor> _fragmentExtractor;
 	std::unique_ptr<QueryExtractor> _queryExtractor;
 	std::unique_ptr<PathExtractor> _pathExtractor;

@@ -122,10 +122,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FragmentExtractor.cpp" />
-    <ClCompile Include="LocationExtractor.cpp" />
-    <ClCompile Include="PathExtractor.cpp" />
-    <ClCompile Include="QueryExtractor.cpp" />
-    <ClCompile Include="SchemeExtractor.cpp" />
     <ClCompile Include="Url.cpp" />
     <ClCompile Include="UrlFormatException.cpp" />
   </ItemGroup>

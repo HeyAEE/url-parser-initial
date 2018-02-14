@@ -47,22 +47,10 @@
     <ClCompile Include="Url.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FragmentExtractor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SchemeExtractor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LocationExtractor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="QueryExtractor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PathExtractor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="UrlFormatException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FragmentExtractor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
